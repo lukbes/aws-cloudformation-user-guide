@@ -62,7 +62,8 @@ Configures the stage that API Gateway creates with this deployment\.
 *Update requires*: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 `StageName`  <a name="cfn-apigateway-deployment-stagename"></a>
-A name for the stage that API Gateway creates with this deployment\. Use only alphanumeric characters\.  
+A name for the stage that API Gateway creates with this deployment\.
+Constraint: Stage names can only contain alphanumeric characters, hyphens, and underscores. Maximum length is 128 characters\.
 *Required*: No  
 *Type*: String  
 *Update requires*: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
